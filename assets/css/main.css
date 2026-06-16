@@ -3535,7 +3535,7 @@ html {
   top: -45px;
   right: 0px;
   font-size: 14px;
-  z-index: 1000;
+  z-index: 20000;
   white-space: nowrap;
 }
 
