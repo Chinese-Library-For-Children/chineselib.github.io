@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'CFont-KNMaiyuan'; /* 给字体起个名字 */
-  src: url('../webfonts/KNMaiyuan-Regular.ttf') format('truetype');
+  src: url('../webfonts/KNMaiyuan-subset.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
