@@ -3560,7 +3560,7 @@ html {
 
 @media screen and (max-width: 980px) {
   .lang-switch {
-    top: -20px;
+    top: -30px;
     right: 30px; /* 给 hamburger menu 留空间 */
     font-size: 13px;
   }
@@ -3571,7 +3571,7 @@ html {
     width: 250px;
   }
   .lang-switch {
-    top: -20px;
+    top: -30px;
     right: 20px;
     opacity: 0.9;
   }
