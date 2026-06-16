@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap");
 @font-face {
   font-family: 'CFont-lph'; /* 给字体起个名字 */
-  src: url('../webfonts/礼品卉自由理想体.ttf') format('truetype');
+  src: url('../webfonts/lipinhui-subset.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
