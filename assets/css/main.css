@@ -1,7 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap");
-
 @font-face {
   font-family: 'CFont-lph'; /* 给字体起个名字 */
   src: url('../webfonts/礼品卉自由理想体.ttf') format('truetype');
@@ -111,7 +110,7 @@ input, select, textarea {
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
-		font-family: 'Open Sans', sans-serif;
+		font-family: "Open Sans","PingFang SC","Microsoft YaHei",sans-serif;
 		font-size: 13pt;
 		color: #3a3a3a;
 		font-weight: 350;
@@ -3731,52 +3730,24 @@ html {
 
 
 
-/* About page */
 .about-hero {
   position: relative;
-  height: 360px;
-  display: flex;
-  align-items: center;
+  width: 100%;
+  aspect-ratio: 3000 / 800;
   overflow: hidden;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.about-hero-text {
-  position: relative;
-  z-index: 2;
-  width: 50%;
-  padding: 3em 0 0 clamp(3rem, 8vw, 10rem);
+  margin: 0;
 }
 
 .about-hero-image {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 360px;
-  z-index: 1;
-  overflow: hidden;
+  inset: 0;
 }
 
 .about-hero-image img {
   width: 100%;
-  height: 360px;
-  object-fit: cover;
+  height: 100%;
   display: block;
-
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    black 28%,
-    black 100%
-  );
-  mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    black 28%,
-    black 100%
-  );
+  object-fit: cover;
 }
 
 .story-section {
@@ -3794,54 +3765,19 @@ html {
 
 .job_distribution {
   background: rgba(230,230,246,1);
-  margin: 0；
+  margin: 0;
   padding: 2.8em 0;
 }
 
 /* mobile */
 @media screen and (max-width: 736px) {
-  .about-hero {
-    height: auto;
-    min-height: 0;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: stretch;
-    margin-top: -4em;
-    margin-bottom: 0;
-    overflow: hidden;
-  }
-
-  .about-hero-text {
-    width: 100%;
-    padding: 2.2em 1.5em 2.5em 1.5em;
-  }
-
   .about-hero-image {
-    position: relative;
-    width: 100%;
-    height: 260px;
-    overflow: hidden;
+    height: auto;
   }
 
   .about-hero-image img {
-    width: 100%;
-    height: 260px;
-    object-fit: cover;
-    object-position: center center;
-
-    -webkit-mask-image: linear-gradient(
-      to bottom,
-      black 0%,
-      black 72%,
-      transparent 100%
-    );
-
-    mask-image: linear-gradient(
-      to bottom,
-      black 0%,
-      black 72%,
-      transparent 100%
-    );
+    height: auto;
+    object-fit: contain;
   }
 
   .story-section {
