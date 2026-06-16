@@ -106,10 +106,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
+		background-image: none;
 		background-color:  #C0ECFD;
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
@@ -3741,7 +3738,7 @@ html {
   display: flex;
   align-items: center;
   overflow: hidden;
-  margin-top: -5em;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -3783,8 +3780,8 @@ html {
 }
 
 .story-section {
-  background: rgba(255,255,255,0.22);
-  margin: 0 0 4em 0;
+  background: rgba(254,250,246,1);
+  margin: 0;
   padding: 2.8em 0;
 }
 
@@ -3793,6 +3790,12 @@ html {
   margin: 0;
   padding-left: clamp(3rem, 8vw, 10rem);
   padding-right: clamp(3rem, 8vw, 10rem);
+}
+
+.job_distribution {
+  background: rgba(230,230,246,1);
+  margin: 0；
+  padding: 2.8em 0;
 }
 
 /* mobile */
