@@ -1,0 +1,13 @@
+.check-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.check-list li {
+    margin-bottom: 0.8em;
+}
+
+.check-list i {
+    color: #7CCB6C;
+    margin-right: 10px;
+}

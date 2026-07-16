@@ -131,13 +131,13 @@ input, select, textarea {
 	input, select, textarea {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 13pt;
-		color: #696969;
+		color: #696969; /*shade of grey*/
 		font-weight: 300;
 		line-height: 2.25em;
 	}
 
 	a {
-		color: #0090c5;
+		color: #0090c5;  /*shade of blue*/
 		text-decoration: underline;
 	}
 
@@ -146,7 +146,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #444;
+		color: #444;  /*shade of dark grey*/
 		font-weight: 800;
 	}
 
@@ -491,11 +491,11 @@ input, select, textarea {
 		}
 
 			.row.gtr-200.knockknockbook {
-				background-color: #fff98a;
+				background-color: #fff98a; /*yellow*/
 			}
 
 			.row.gtr-200.story_time {
-				background-color: #ffc7ee;
+				background-color: #ffc7ee; /*pink*/
 			}
 
 			.row.gtr-200.news {
@@ -1588,7 +1588,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			border-color: #0090c5;
+			border-color: #0090c5; /*blue*/
 		}
 
 	form input[type="text"],
@@ -1654,7 +1654,7 @@ input, select, textarea {
 		}
 
 		table thead {
-			background: #404248;
+			background: #404248; /*grey*/
 			color: #fff;
 		}
 
@@ -1883,13 +1883,13 @@ input, select, textarea {
 
 			.box.feature h2 {
 				font-size: 1.8em;
-				color: #162116;
+				color: #162116; /*dark deep green*/
 			}
 
 			.box.feature p {
 				margin: 0;
 				font-size: 1.2em;
-				color: #f7583b;
+				color: #f7583b;  /*bright orange*/
 			}
 
 			.box.feature .image {
@@ -1983,7 +1983,7 @@ input, select, textarea {
 			}
 
 				.widget.contact ul li a:before {
-					color: #f3f3f3;
+					color: #f3f3f3; /*white*/
 					font-size: 1.5em;
 					line-height: inherit;
 				}
@@ -2048,7 +2048,7 @@ input, select, textarea {
 	}
 
 		#logo h1 {
-			background: #ff4486;
+			background: #ff4486; /*megenta*/
 			color: #fff;
 			border-radius: 6px;
 			font-family: 'Oleo Script', serif;
@@ -2105,7 +2105,7 @@ input, select, textarea {
 					text-decoration: none;
 					border-radius: 20px;
 					padding: 0.5em 0.5em 0.5em 0.5em;
-					background: #FA8E7B; 
+					background: #FA8E7B;  /*light orange*/
 				}
 
 				#nav ul li > ul {
@@ -2126,9 +2126,9 @@ input, select, textarea {
 				}
 
 	.dropotron {
-		background: #fcece8;
+		background: #fcece8; /*light pink*/
 		letter-spacing: 0.025em;
-		color: #f7583b;
+		color: #f7583b; /*bright orange*/
 		text-decoration: none;
 		border-radius: 6px;
 		padding: 0.2em 0;
@@ -3143,7 +3143,7 @@ html[lang="en"] .image-button {
   top: 80%;                  /* 垂直居中 */   
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(247, 88, 59, 0.7); 
+  background: rgba(247, 88, 59, 0.7);  /*#166118 green*/
   color: #fff;
 
   padding: 4px 5px;
