@@ -14,7 +14,9 @@
 		  rel="stylesheet"
 		  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 		/>
-	</head>
+	    <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+<link rel="stylesheet" href="assets/css/newsletter.css">
+  </head>
 
 <script>
 async function loadNewsSidebar() {
@@ -295,7 +297,7 @@ document.addEventListener('DOMContentLoaded', loadNewsSidebar);
 
 								<!-- Links -->
 									<section class="widget links">
-									  <h3 style="margin-bottom:-0.2em">Follow Us</h3>
+									  <h3 style="margin-bottom:-0.2em">Stay Connected</h3>
 									  <div class="qrcode-row">
 
 									    <!-- 微信 -->
@@ -331,7 +333,9 @@ document.addEventListener('DOMContentLoaded', loadNewsSidebar);
 									  </div>
 									</section>
 
-              </div>
+               </div>
+
+</div>
 
 
             <div class="row">
@@ -398,5 +402,44 @@ document.addEventListener('DOMContentLoaded', loadNewsSidebar);
 			</script>
 
 
+				<script>
+			  window.REQUIRED_CODE_ERROR_MESSAGE = "Please choose a country code";
+			  window.LOCALE = "en";
+
+			  window.EMAIL_INVALID_MESSAGE =
+			    window.SMS_INVALID_MESSAGE =
+			    "Please enter a valid email address.";
+
+			  window.REQUIRED_ERROR_MESSAGE =
+			    "Please enter your email address.";
+
+			  window.GENERIC_INVALID_MESSAGE =
+			    "Please enter a valid email address.";
+
+			  window.INVALID_NUMBER =
+			    "Please enter a valid email address.";
+
+			  window.INVALID_DATE =
+			    "Please enter a valid date.";
+
+			  window.REQUIRED_MULTISELECT_MESSAGE =
+			    "Please select at least one option.";
+
+			  window.translation = {
+			    common: {
+			      selectedList: "{quantity} list selected",
+			      selectedLists: "{quantity} lists selected",
+			      selectedOption: "{quantity} selected",
+			      selectedOptions: "{quantity} selected"
+			    }
+			  };
+
+			  var AUTOHIDE = false;
+			</script>
+
+			<script
+			  defer
+			  src="https://sibforms.com/forms/end-form/build/main.js"
+			></script>
 	</body>
 </html>

@@ -15,6 +15,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+      <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+<link rel="stylesheet" href="assets/css/newsletter.css">
   </head>
   <body class="is-preload homepage">
     <div id="page-wrapper">
@@ -186,48 +188,26 @@
         <div id="footer-wrapper">
           <footer id="footer" class="container">
             <div class="row footer-middle">
-                <!-- ✅ 新增包裹层 -->
-                <div class="footer-nav-contact col-6 col-6-medium col-12-small">
-                <div class="footer-nav col-3 col-12-small">
-
-                  <!-- Links -->
-                  <section class="widget links">
-                    <ul class="style2">
-                      <li><a href="#">Go to the top</a></li>
-                      <li><a href=" about-us_en.html">About</a></li>
-                      <li><a href="https://www.zeffy.com/en-US/donation-form/supporting-our-language-and-culture"
-                         target="_blank"
-                         rel="noopener noreferrer"
-                         >Donation</a></li>
-                    </ul>
-                  </section>
-                </div>
-
-                <!-- 竖线分隔 -->
-                  <div class="footer-divider">  
-                  </div>
-
+               
                 <div class="footer-contact col-3 col-12-small">
-
                   <!-- Contact -->
                   <section class="widget contact last">
                     <div class="contact-info">
                       <p style="color: #ff6600; margin-bottom:0.5em">中文儿童图书馆 </br> Chinese Library for Children</p>
                       <p><i class="fa-solid fa-envelope"></i> admin@chineselib.org </br>
                           <!-- <i class="fa-solid fa-phone"></i>    </br> -->
-                          <i class="fa-solid fa-location-dot"></i> Pittsburgh, PA 15217
+                          <i class="fa-solid fa-location-dot"></i> Pittsburgh, PA
                       </p>
                     </div>
                   </section>
                 </div>
 
-              </div>  
 
-              <div class="footer-follow col-6 col-6-medium col-12-small">
+              <div class="footer-follow col-4 col-4-medium col-12-small">
 
                 <!-- Links -->
                   <section class="widget links">
-                    <h3 style="margin-bottom:-0.2em">Follow Us</h3>
+                    <h3 style="margin-bottom:-0.2em">Stay Connected</h3>
                     <div class="qrcode-row">
 
                       <!-- 微信 -->
@@ -250,27 +230,114 @@
                         </a>
                       </div>
 
-                      <!-- logo -->
-                      <div class="qrcode-item">
-                        <a href="index.html" class="foot-icon-qrcode">
-                          <img src="images/logo1_transparentbackground.png" alt="logo">
-                        <p class="qrcode-label" style="margin-top:-0.2em">Chinese Library for Children</p>
-                        </a>
-                        
-                      </div>
-
-
                     </div>
                   </section>
 
               </div>
+
+              <div class="footer-follow col-5 col-5-medium col-12-small">
+                <section class="footer-newsletter" aria-labelledby="newsletter-heading">
+
+                <div class="newsletter-copy">
+                <h2 id="newsletter-heading">Never miss a Sprout Pack.</h2>
+                <p>Registration alerts and occasional updates from Chinese Library for Children.<br>
+                Just four emails a year.</p>
+                </div>
+
+                <div class="newsletter-form-wrap">
+                <div id="sib-form-container" class="sib-form-container">
+
+                  <div
+                    id="error-message"
+                    class="sib-form-message-panel newsletter-message newsletter-message--error"
+                  >
+                    <div class="sib-form-message-panel__text">
+                      <span class="sib-form-message-panel__inner-text">
+                        Something went wrong. Please try again in a moment.
+                      </span>
+                    </div>
+                  </div>
+
+                  <div
+                    id="success-message"
+                    class="sib-form-message-panel newsletter-message newsletter-message--success"
+                  >
+                    <div class="sib-form-message-panel__text">
+                      <span class="sib-form-message-panel__inner-text">
+                        Welcome! A welcome email is on its way.
+                      </span>
+                    </div>
+                  </div>
+
+                  <div id="sib-container">
+                    <form
+                      id="sib-form"
+                      method="POST"
+                      action="https://e5766d25.sibforms.com/serve/MUIFAOL-Ugxe9PortYK7l__iRQRnf8ncRTJCduglK2R4NnTw7UI7Ok0cpHYdzEDYs0N_qBB8Dg0doB45AOKLORkWHvohmrstiNzrKIEjC1FOq6rH1nA2jJf2JF6cBJkb6DW6pVd4szP1XkiApMSySD8X-ROPh-2NVYrgsm5zy09j1Pra1kYhkThhGQPV_imNMzPYGKvXE2_FwZLJXQ=="
+                      data-type="subscription"
+                    >
+                      <div class="newsletter-form-row">
+                        <label class="sr-only" for="EMAIL">Email address</label>
+
+                        <div class="newsletter-email-field">
+                          <input
+                            class="input"
+                            type="email"
+                            id="EMAIL"
+                            name="EMAIL"
+                            autocomplete="email"
+                            inputmode="email"
+                            placeholder="Enter your email"
+                            data-required="true"
+                            required
+                          >
+
+                          <label
+                            class="entry__error entry__error--primary"
+                            for="EMAIL"
+                          ></label>
+                        </div>
+
+                        <button
+                          class="sib-form-block__button sib-form-block__button-with-loader"
+                          type="submit"
+                        >
+                          <svg
+                            class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon"
+                            viewBox="0 0 512 512"
+                            aria-hidden="true"
+                          >
+                            <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z"/>
+                          </svg>
+                          Join
+                        </button>
+                      </div>
+
+                      <input
+                        type="text"
+                        name="email_address_check"
+                        value=""
+                        class="input--hidden"
+                        tabindex="-1"
+                        autocomplete="off"
+                      >
+
+                      <input type="hidden" name="locale" value="en">
+                    </form>
+                  </div>
+                </div>
+                </div>
+                </section>            
+              </div>
+
+            </div>
 
 
             <div class="row">
               <div class="col-12">
                 <div id="copyright">
                   <ul class="menu">
-                    <li style="color: #ff6600;" >&copy; 2025–2026 Chinese Library for Children. All rights reserved</li>
+                    <li class="copyright-text">&copy; 2025–2026 Chinese Library for Children. All rights reserved</li>
                   </ul>
                 </div>
               </div>
@@ -291,5 +358,44 @@
 
 
 
-  </body>
+  			<script>
+			  window.REQUIRED_CODE_ERROR_MESSAGE = "Please choose a country code";
+			  window.LOCALE = "en";
+
+			  window.EMAIL_INVALID_MESSAGE =
+			    window.SMS_INVALID_MESSAGE =
+			    "Please enter a valid email address.";
+
+			  window.REQUIRED_ERROR_MESSAGE =
+			    "Please enter your email address.";
+
+			  window.GENERIC_INVALID_MESSAGE =
+			    "Please enter a valid email address.";
+
+			  window.INVALID_NUMBER =
+			    "Please enter a valid email address.";
+
+			  window.INVALID_DATE =
+			    "Please enter a valid date.";
+
+			  window.REQUIRED_MULTISELECT_MESSAGE =
+			    "Please select at least one option.";
+
+			  window.translation = {
+			    common: {
+			      selectedList: "{quantity} list selected",
+			      selectedLists: "{quantity} lists selected",
+			      selectedOption: "{quantity} selected",
+			      selectedOptions: "{quantity} selected"
+			    }
+			  };
+
+			  var AUTOHIDE = false;
+			</script>
+
+			<script
+			  defer
+			  src="https://sibforms.com/forms/end-form/build/main.js"
+			></script>
+	</body>
 </html>

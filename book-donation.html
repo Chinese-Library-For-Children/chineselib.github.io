@@ -14,7 +14,9 @@
 		  rel="stylesheet"
 		  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 		/>
-	</head>
+	    <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+<link rel="stylesheet" href="assets/css/newsletter.css">
+  </head>
 	<body class="is-preload homepage">
 		<div id="page-wrapper">
 
@@ -216,13 +218,15 @@
 									  </div>
 									</section>
 
-							</div>
+              </div>
 
-						</div>
-						<div class="row">
-							<div class="col-12">
-								<div id="copyright">
-									<ul class="menu">
+</div>
+
+
+            <div class="row">
+              <div class="col-12">
+                <div id="copyright">
+                  <ul class="menu">
 										<li style="color: #ff6600;" >&copy; 2025–2026 Chinese Library for Children. All rights reserved</li>
 									</ul>
 								</div>
@@ -240,5 +244,44 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+				<script>
+			  window.REQUIRED_CODE_ERROR_MESSAGE = "Please choose a country code";
+			  window.LOCALE = "en";
+
+			  window.EMAIL_INVALID_MESSAGE =
+			    window.SMS_INVALID_MESSAGE =
+			    "Please enter a valid email address.";
+
+			  window.REQUIRED_ERROR_MESSAGE =
+			    "Please enter your email address.";
+
+			  window.GENERIC_INVALID_MESSAGE =
+			    "Please enter a valid email address.";
+
+			  window.INVALID_NUMBER =
+			    "Please enter a valid email address.";
+
+			  window.INVALID_DATE =
+			    "Please enter a valid date.";
+
+			  window.REQUIRED_MULTISELECT_MESSAGE =
+			    "Please select at least one option.";
+
+			  window.translation = {
+			    common: {
+			      selectedList: "{quantity} list selected",
+			      selectedLists: "{quantity} lists selected",
+			      selectedOption: "{quantity} selected",
+			      selectedOptions: "{quantity} selected"
+			    }
+			  };
+
+			  var AUTOHIDE = false;
+			</script>
+
+			<script
+			  defer
+			  src="https://sibforms.com/forms/end-form/build/main.js"
+			></script>
 	</body>
 </html>

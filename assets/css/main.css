@@ -2258,10 +2258,14 @@ input, select, textarea {
 		text-align: center;
 	}
 
+
 		#copyright a {
 			color: inherit;
 		}
 
+	.copyright-text{
+    color:#55745d;
+}
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
