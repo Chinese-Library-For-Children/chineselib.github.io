@@ -3788,14 +3788,14 @@ html {
 }
 
 .volunteer-card {
-  flex: 0 0 16.666%;
+  flex: 0 0 11.11%;
   text-align: center;
-  padding: 0 1em;
+  padding: 0 0.2em;
 }
 
 img.member-photo {
-  width: 160px !important;
-  height: 160px !important;
+  width: 90px !important;
+  height: 90px !important;
   border-radius: 16px;
   object-fit: cover;
   object-position: center top;
@@ -3824,22 +3824,22 @@ img.member-photo {
 
 @media screen and (max-width: 980px) {
   .volunteer-card {
-    flex: 0 0 33.333%;
+    flex: 0 0 16.67%;
   }
 
   img.member-photo {
-    width: 130px !important;
-    height: 130px !important;
+    width: 100px !important;
+    height: 100px !important;
   }
 }
 
 @media screen and (max-width: 736px) {
   .volunteer-card {
-    flex: 0 0 50%;
+    flex: 0 0 25%;
   }
 
   img.member-photo {
-    width: 110px !important;
-    height: 110px !important;
+    width: 90px !important;
+    height: 90px !important;
   }
 }
